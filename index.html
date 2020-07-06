@@ -8,11 +8,37 @@
             <h1>Anti Malware</h1>
         </div>
 
-        <div class="flex ">
+        <div class="flex">
             <div class="flex-1"></div>
-            <div class="flex-2 logger_container" id="logger_container"></div>
+            <div class="flex-3 logger_container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>function</th>
+                            <th>file</th>
+                            <th>url</th>
+                        </tr>
+                    </thead>
+                    <tbody id="logger_tbody">
+                        <tr class="logger_blocked logger_row">
+                            <td>Xhr.open()</td>
+                            <td>/malware_1.js:8:14)</td>
+                            <td>https://stats.nba.com/stats/allstarballotpredictor</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
             <div class="flex-1"></div>
         </div>
+
+        <div class="flex m_t_20">
+            <div class="flex-1"></div>
+            <div class="flex-1 text_center">
+                <a class="link_to_git"href="https://github.com/2aviv20/2aviv20.github.io">Link to GitHub</a>
+            </div>
+            <div class="flex-1"></div>
+        </div>
+
         <script src="./antiMalware.js"></script>
         <script src="./app.js"></script>
         <script src="./malwares/malware_1.js"></script>
