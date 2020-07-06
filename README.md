@@ -9,6 +9,7 @@ prevent third-party JavaScript files to :
 4. read from localStorage
 5. read and write cookie
 
+prevent execution using "white list" of js files  
 
 ## Installation
 >npm i 
