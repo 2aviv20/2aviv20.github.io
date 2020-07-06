@@ -3,7 +3,7 @@
 ----
 ## usage
 prevent third-party JavaScript files to :
-1. checnge the DOM [getElementById ,querySelector, querySelectorAll]
+1. checnge the DOM [getElementById ,querySelector, querySelectorAll, getElementsByClassName , getElementsByName]
 2. execute xhr rexuest
 3. execute fetch request
 4. read from localStorage
