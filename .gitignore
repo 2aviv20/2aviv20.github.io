@@ -1,0 +1,10 @@
+node_modules
+v8
+dist
+*.pdf
+*.orig
+*.js.map
+npm-debug.log
+.idea
+.idea/*
+package-lock.json
